@@ -1,0 +1,38 @@
+.container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#abcdef, #cfc);
+}
+
+.header {
+    text-align: center;
+    line-height: 200rpx;
+}
+
+.header image {
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.content {
+    text-align: center;
+}
+
+.content view {
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.content text {
+    display: block;
+    color: #9d9d9d;
+    font-size: 32rpx;
+    margin-top: 40rpx;
+}
+
+.btn-login {
+    border-radius: 80rpx;
+    font-size: 35rpx;
+    margin: 50rpx 0rpx;
+}
