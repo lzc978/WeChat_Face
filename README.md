@@ -43,7 +43,8 @@
 > 5.人脸68个特征点获取
 
 ```
-使用dlib库中的get_frontal_face_detector()特征提取器，并使用官方推荐的开源预测器训练好的模型shape_predictor_68_face_landmarks.dat
+使用dlib库中的get_frontal_face_detector()特征提取器，
+并使用官方推荐的开源预测器训练好的模型shape_predictor_68_face_landmarks.dat
 ```
 
 > 6.识别图片中的人是谁
