@@ -1,0 +1,15 @@
+<view class="page">
+    <view class="pad">
+        <view class="page__title">关于作者</view>
+        <view class="card">
+            <text>BraveHeart\n— 编程爱好者。具有丰富的项目实战经验，擅长python！</text>
+        </view>
+        <view class="page__title">联系地址</view>
+        <view class="card">
+            <view style='text-align:center;color:blue;'>联系地址：中国北京天安门</view>
+            <map style="width:100%;height:390rpx;" latitude='{{ lat }}' longitude='{{ lon }}' markers='{{ markers }}'></map>
+        </view>
+    </view>
+</view>
+
+<include src='../common/foot.wxml' />
