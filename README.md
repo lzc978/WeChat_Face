@@ -53,7 +53,7 @@
 通过face_recognition库中的face_encodings()方法，提取关键点值，并通过compare_faces()方法判断result
 ```
 
->6.实时人脸检测
+> 7.实时人脸检测
 
 ```
 使用OpenCV实现，还没实现...
